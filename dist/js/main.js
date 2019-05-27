@@ -4,6 +4,7 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
+const dateYear = document.getElementById('#main-footer');
 
 // set initial state of menu
 let showMenu = false;
@@ -29,3 +30,5 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+var theDate=new Date() document.write(theDate.getFullYear())
