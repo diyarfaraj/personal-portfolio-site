@@ -55,34 +55,21 @@
         <div class="bio">
           <div class="row">
             <div class="column">
-              <form action="/action_page.php">
-                <label for="fname">Förnamn</label>
+              <form id="contactForm" action="form.php" method="post">
+                <label for="fname">Namn</label>
                 <input
                   type="text"
                   id="fname"
-                  name="firstname"
-                  placeholder="Ditt namn.."
+                  name="name"
+                  placeholder="Fullständigt namn här.."
                 />
-                <label for="lname">Efternamn</label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Efternamn.."
-                />
+
                 <label for="lname">Mejladress</label>
                 <input
-                  type="email"
+                  type="text"
                   id="lname"
                   name="email"
                   placeholder="Ditt mejl.."
-                />
-                <label for="lname">Företag</label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Ditt företags namn.."
                 />
                 <label for="subject">Ämne</label>
                 <textarea
