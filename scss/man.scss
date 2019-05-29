@@ -189,6 +189,18 @@ textarea {
   background: #ccc;
 }
 
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: #ccc;
+}
+
 input[type="submit"] {
   background-color: #4caf50;
   color: white;
