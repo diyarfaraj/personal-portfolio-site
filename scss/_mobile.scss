@@ -87,4 +87,12 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .contact {
+    grid-template-areas:
+      "lg-heading"
+      "sm-heading"
+      "con-image"
+      "bio";
+  }
 }
