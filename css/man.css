@@ -142,7 +142,9 @@
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact {
+    grid-template-areas: "lg-heading" "sm-heading" "con-image" "bio"; } }
 
 * {
   box-sizing: border-box; }
@@ -336,7 +338,12 @@ input[type="submit"]:hover {
   .column,
   input[type="submit"] {
     width: 100%;
-    margin-top: 0; } }
+    margin-top: 0; }
+  .contact {
+    grid-template-areas: "lg-heading" "sm-heading" "con-image" "bio";
+    float: none;
+    width: 100%;
+    min-height: 0; } }
 
 label {
   color: #eece1a; }
@@ -402,4 +409,6 @@ label {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact {
+    grid-template-areas: "lg-heading" "sm-heading" "con-image" "bio"; } }
