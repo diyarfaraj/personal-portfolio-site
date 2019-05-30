@@ -14,6 +14,20 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  z-index: 2;
+}
+
+//video
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  z-index: -1;
 }
 
 //headings
@@ -76,10 +90,14 @@ main {
     h1 {
       margin-top: -5vh;
     }
+  }
 
-    ::-webkit-scrollbar {
-      display: none;
-    }
+  &#work {
+    overflow: hidden;
+  }
+
+  &#contact {
+    overflow: hidden;
   }
 }
 
