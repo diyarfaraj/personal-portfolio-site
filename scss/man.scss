@@ -220,8 +220,8 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
+  background-color: $secondary-color;
+  color: $primary-color;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
