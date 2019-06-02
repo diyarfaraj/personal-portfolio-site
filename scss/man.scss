@@ -190,10 +190,10 @@ main {
 //contact form
 .boxes {
   display: grid;
-
+  grid-gap: 0.7rem;
   grid-template-columns: 1fr 2fr;
+  margin-bottom: -40px;
 }
-
 /* Style inputs */
 input[type="text"],
 select,
@@ -267,7 +267,7 @@ input[type="submit"]:hover {
       "lg-heading"
       "sm-heading"
       "con-image"
-      "bio";
+      "forms";
 
     float: none;
     width: 100%;
