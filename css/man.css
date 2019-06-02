@@ -319,8 +319,8 @@ textarea {
   background: #ccc; }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
+  background-color: #eece1a;
+  color: #444;
   padding: 12px 20px;
   border: none;
   cursor: pointer; }
