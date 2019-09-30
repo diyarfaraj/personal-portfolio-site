@@ -264,7 +264,7 @@ h2.sm-headingg {
   position: fixed;
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  margin-left: 2rem;
+
   background: none;
 }
 
@@ -362,6 +362,43 @@ main#contact {
   opacity: 0.5;
   border-color: #eece1a;
   transition: all 0.5s ease-out;
+}
+.img__wrap {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #515151d4;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: 0.7s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
 }
 
 .con-image {
@@ -561,6 +598,17 @@ label {
       "con-image"
       "bio";
     grid-template-columns: 1fr;
+  }
+
+  h2.sm-headingg {
+    position: fixed;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    margin-left: 3rem;
+  }
+
+  main .icons {
+    margin-top: 5rem;
   }
 }
 
