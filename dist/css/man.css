@@ -424,7 +424,7 @@ main#contact {
 }
 
 hr {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .img__description_layer {
@@ -649,8 +649,8 @@ label {
 
   .about-info {
     grid-template-areas:
-      "bioimage"
       "bio"
+      "bioimage"
       "job1"
       "job2"
       "job3";
@@ -674,7 +674,7 @@ label {
     position: fixed;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
   }
 
   main .icons {
