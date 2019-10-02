@@ -362,11 +362,12 @@ main#contact {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio""job1 job2 job3";
+  grid-template-areas: "bio bio bioimage""job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
 
 .about-info .bio-image {
+  display: none;
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
@@ -460,8 +461,11 @@ hr {
 }
 
 .con-image {
+  display: none;
   border-radius: 50%;
   border: #eece1a solid 3px;
+  height: 200px;
+  width: 200px;
 }
 
 .btn,
@@ -493,7 +497,7 @@ hr {
 .boxes {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   margin-bottom: -40px;
 }
 
