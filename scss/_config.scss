@@ -1,4 +1,4 @@
-$primary-color: #444;
+$primary-color: rgb(28, 37, 87);
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-video: $primary-color;
@@ -34,7 +34,9 @@ $background-opacity: 0.9;
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
     @return #000;
-  } @else {
+  }
+
+  @else {
     @return #fff;
   }
 }

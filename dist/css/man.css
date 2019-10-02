@@ -376,7 +376,7 @@ main#contact {
 
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .about-info .job-1 {
@@ -678,7 +678,7 @@ label {
     position: fixed;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    margin-left: 3.5rem;
+    margin-left: 4.5rem;
   }
 
   main .icons {
