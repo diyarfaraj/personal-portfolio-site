@@ -96,7 +96,7 @@
   transform: translate3d(0, 0, 0);
 }
 
-.menu .nav-item.current > a {
+.menu .nav-item.current>a {
   color: #eece1a;
 }
 
@@ -131,6 +131,7 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
 }
+
 
 @media screen and (min-width: 1171px) {
   .projects {
@@ -362,7 +363,7 @@ main#contact {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio bio bioimage" "job1 job2 job3";
+  grid-template-areas: "bio bio bioimage""job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -562,6 +563,7 @@ input[type="submit"]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
   .column,
   input[type="submit"] {
     width: 100%;
