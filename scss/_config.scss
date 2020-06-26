@@ -11,7 +11,7 @@ $background-opacity: 0.9;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-video;
+      background: black;
       background-attachment: fixed;
       background-size: cover;
 
