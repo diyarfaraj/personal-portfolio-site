@@ -39,7 +39,7 @@ var Messenger = function(el) {
 		m.message = 0;
 		m.current_length = 0;
 		m.fadeBuffer = false;
-		m.messages = [ 'Developer', 'Application Consultant', 'E-Commerce' ];
+		m.messages = [ 'Developer', 'E-Commerce' ];
 
 		setTimeout(m.animateIn, 100);
 	};
