@@ -7,6 +7,15 @@
   transition: all 0.5s ease-out;
 }
 
+html {
+  height: 100%;
+}
+
+.bio {
+  text-align: left;
+}
+
+
 .menu-btn .btn-line {
   width: 28px;
   height: 3px;
@@ -84,7 +93,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #0c9938;
 }
 
 .menu .nav-item {
@@ -97,7 +106,7 @@
 }
 
 .menu .nav-item.current>a {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 .menu .nav-link {
@@ -113,7 +122,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 .nav-item:nth-child(1) {
@@ -282,7 +291,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 2rem;
 }
 
 h1.sm-heading,
@@ -313,7 +322,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 main {
@@ -331,7 +340,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #0c9938;
   transition: all 0.5s ease-out;
 }
 
@@ -371,7 +380,7 @@ main#contact {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a solid 3px;
+  border: #0c9938 solid 3px;
 }
 
 .about-info .bio {
@@ -394,7 +403,7 @@ main#contact {
 .about-info .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  border-bottom: #0c9938 5px solid;
 }
 
 .projects {
@@ -410,7 +419,7 @@ main#contact {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #0c9938;
   transition: all 0.5s ease-out;
 }
 
@@ -463,7 +472,7 @@ hr {
 .con-image {
   display: none;
   border-radius: 50%;
-  border: #eece1a solid 3px;
+  border: #0c9938 solid 3px;
   height: 200px;
   width: 200px;
 }
@@ -480,7 +489,7 @@ hr {
 .btn:hover,
 .btn-dark:hover,
 .btn-light:hover {
-  background: #eece1a;
+  background: #0c9938;
   color: #000;
 }
 
@@ -527,7 +536,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #eece1a;
+  background-color: #0c9938;
   color: #444;
   padding: 12px 20px;
   border: none;
@@ -582,7 +591,7 @@ input[type="submit"]:hover {
 }
 
 label {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 :-ms-input-placeholder {

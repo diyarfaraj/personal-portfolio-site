@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+}
+
+.bio {
+  text-align: left;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -103,7 +111,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #0c9938;
 }
 
 .menu .nav-item {
@@ -119,7 +127,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 .menu .nav-link {
@@ -136,7 +144,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 .nav-item:nth-child(1) {
@@ -214,7 +222,11 @@
     height: 150px;
   }
   .about-info {
-        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+        grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -223,7 +235,10 @@
         grid-template-columns: repeat(2, 1fr);
   }
   .contact {
-        grid-template-areas: "lg-heading" "sm-heading" "con-image" "bio";
+        grid-template-areas: "lg-heading"
+ "sm-heading"
+ "con-image"
+ "bio";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -238,7 +253,7 @@
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 2rem;
   }
   .projects {
     -ms-grid-columns: 1fr;
@@ -300,7 +315,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 2rem;
 }
 
 h1.sm-heading,
@@ -323,7 +338,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 main {
@@ -341,7 +356,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #0c9938;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -385,7 +400,7 @@ main#contact {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a solid 3px;
+  border: #0c9938 solid 3px;
 }
 
 .about-info .bio {
@@ -417,7 +432,7 @@ main#contact {
 .about-info .job {
   background: #222d6a;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  border-bottom: #0c9938 5px solid;
 }
 
 .projects {
@@ -435,14 +450,14 @@ main#contact {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #0c9938;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
 .con-image {
   border-radius: 50%;
-  border: #eece1a solid 3px;
+  border: #0c9938 solid 3px;
 }
 
 .btn, .btn-dark, .btn-light {
@@ -453,7 +468,7 @@ main#contact {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #eece1a;
+  background: #0c9938;
   color: #000;
 }
 
@@ -502,7 +517,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #eece1a;
+  background-color: #0c9938;
   color: #1c2557;
   padding: 12px 20px;
   border: none;
@@ -543,7 +558,10 @@ input[type="submit"]:hover {
     margin-top: 0;
   }
   .contact {
-        grid-template-areas: "lg-heading" "sm-heading" "con-image" "forms";
+        grid-template-areas: "lg-heading"
+ "sm-heading"
+ "con-image"
+ "forms";
     float: none;
     width: 100%;
     min-height: 0;
@@ -551,7 +569,7 @@ input[type="submit"]:hover {
 }
 
 label {
-  color: #eece1a;
+  color: #0c9938;
 }
 
 :-ms-input-placeholder {
@@ -621,7 +639,11 @@ label {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+        grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -630,7 +652,10 @@ label {
         grid-template-columns: repeat(2, 1fr);
   }
   .contact {
-        grid-template-areas: "lg-heading" "sm-heading" "con-image" "bio";
+        grid-template-areas: "lg-heading"
+ "sm-heading"
+ "con-image"
+ "bio";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }

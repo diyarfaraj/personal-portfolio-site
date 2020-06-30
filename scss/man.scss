@@ -7,8 +7,8 @@
 }
 
 body {
-  @include background;
-  background: $primary-color;
+  
+  background: black;
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
