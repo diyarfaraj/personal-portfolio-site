@@ -109,7 +109,7 @@ var Messenger = function (el) {
     if (do_cycles === true) {
       setTimeout(m.animateFadeBuffer, 50);
     } else {
-      setTimeout(m.cycleText, 3000);
+      setTimeout(m.cycleText, 1000);
     }
   };
 
