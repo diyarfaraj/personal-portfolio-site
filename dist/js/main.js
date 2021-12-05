@@ -41,10 +41,10 @@ var Messenger = function (el) {
     m.fadeBuffer = false;
     m.messages = [
       "Developer",
-      "E-Commerce",
+      "Web/Desktop/Mobile",
       "C#/.NET",
       "JavaScript/React",
-      "Python",
+      "Flutter/Xamarin",
     ];
 
     setTimeout(m.animateIn, 100);
